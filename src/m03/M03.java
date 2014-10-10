@@ -24,8 +24,18 @@ public class M03 {
         n1 = teclado.nextInt();
         System.out.println("Introduce el segundo");
         n2 = teclado.nextInt();
-        resultado=n1+n2;
-        System.out.println("El resultado es: "+resultado);
+        System.out.println("Introduce el resultado de la suma");
+        resultado=teclado.nextInt();
+        
+        /*System.out.println("El resultado es: "+resultado);
+        */
+        // para poner texto
+        if (n1+n2==resultado) {
+            System.out.println("El resultado es correcto muy bien Lidia");
+        }else {
+            System.out.println("ERROR");
+            
+        } 
         
         
                 
