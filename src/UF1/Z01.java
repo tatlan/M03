@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package m03;
+package UF1;
 import java.util.Scanner;
 /**
  *
  * @author JuanAlfonso
  */
-public class M03 {
+public class Z01 {
     
     /**
      * @param args the command line arguments

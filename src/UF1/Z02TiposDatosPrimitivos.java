@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package m03;
+package UF1;
 
 /**
  *
  * @author JuanAlfonso
  */
-public class TiposDatosPrimitivos {
+public class Z02TiposDatosPrimitivos {
     public static void main(String[] args) {
         boolean p;      //verdadero o falso
         int n;          //numero entero sin decimales positivo o negativo
