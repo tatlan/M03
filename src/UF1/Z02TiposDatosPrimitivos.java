@@ -14,8 +14,9 @@ public class Z02TiposDatosPrimitivos {
         boolean p;      //verdadero o falso
         int n;          //numero entero sin decimales positivo o negativo
         double d;       //numero con o sin decimales
-        char car;         //caracter
+        char car;         //caracter, solo uno
         String cadena;  //cadena de caracteres no sale en azul por no ser primitivo, pero es correcto
+                            //mas de un caracter
         
         n=3;            // incluso n=(3*4)+8/4-10
         d=3.1;          //puede ser entero o entero mas decimal
