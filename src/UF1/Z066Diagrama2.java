@@ -6,20 +6,23 @@
 package UF1;
 
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  *
  * @author JuanAlfonso
  */
-public class Z06Diagrama2 {
+public class Z066Diagrama2 {
     //private static int N=456;   asi se declara una constante
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        Random aleatorio= new Random();
+        System.out.println("Introduce el numero a ver si lo aciertas...");
         int numero_secreto;
         int numero_usuario;
-        numero_secreto = 456;
+        numero_secreto = aleatorio.nextInt(26);
         String mensaje;
-
+        System.out.println(numero_secreto);
         System.out.println("Introduce el numero a ver si lo aciertas...");
         numero_usuario = teclado.nextInt();
         if (numero_secreto == numero_usuario) {
