@@ -16,11 +16,11 @@ public class Z81_Ejercicio_19_arrays {
     public static void main(String[] args) {
 
         /*String[] nombre = {"juan", "pedro", "ismael", "pablo", "jaime"};*/
-       String[] nombre= new String[5];
+        String[] nombre = new String[5];
         /*double notas[][] = {
-            {5.2, 2, 3, 4.5, 10},
-            {6, 3, 5, 7, 8},};*/
-        
+         {5.2, 2, 3, 4.5, 10},
+         {6, 3, 5, 7, 8},};*/
+
         double[][] notas = new double[2][5];
         String alumno;
         int nota1;
@@ -78,12 +78,12 @@ public class Z81_Ejercicio_19_arrays {
             notafinal = (notas[0][i] + notas[1][i]) / 2;
             if (notafinal >= 5) {
                 System.out.println("Nombre " + nombre[i] + " Nota primera " + notas[0][i]
-                        + " Nota segunda " + notas[1][i] + " Media " + ((notas[0][i] * porcentaje1/100)
-                        + (notas[1][i] * porcentaje2/100)) / 2 + " Aprobado");
+                        + " Nota segunda " + notas[1][i] + " Media " + ((notas[0][i] * porcentaje1 / 100)
+                        + (notas[1][i] * porcentaje2 / 100)) / 2 + " Aprobado");
             } else {
                 System.out.println("Nombre " + nombre[i] + " Nota primera " + notas[0][i]
-                        + " Nota segunda " + notas[1][i] + " Media " + ((notas[0][i] * porcentaje1/100)
-                                + (notas[1][i] * porcentaje2/100)) / 2
+                        + " Nota segunda " + notas[1][i] + " Media " + ((notas[0][i] * porcentaje1 / 100)
+                        + (notas[1][i] * porcentaje2 / 100)) / 2
                         + " Suspendido");
 
             }
@@ -96,9 +96,7 @@ public class Z81_Ejercicio_19_arrays {
             for (j = 0; j < nombre.length; j++) {
                 if (notas[i][j] == notamaxima) {
                     System.out.println(nombre[j] + " Ha conseguido nota maxima");
-
                 }
-
             }
         }
     }
