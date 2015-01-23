@@ -15,12 +15,13 @@ public class Z81_Ejercicio_19_arrays {
 
     public static void main(String[] args) {
 
-        String[] nombre = {"juan", "pedro", "ismael", "pablo", "jaime"};
-        /*float notas [][]=new float [5][5];*/
-
-        double notas[][] = {
+        /*String[] nombre = {"juan", "pedro", "ismael", "pablo", "jaime"};*/
+       String[] nombre= new String[5];
+        /*double notas[][] = {
             {5.2, 2, 3, 4.5, 10},
-            {6, 3, 5, 7, 8},};
+            {6, 3, 5, 7, 8},};*/
+        
+        double[][] notas = new double[2][5];
         String alumno;
         int nota1;
         int nota2;
