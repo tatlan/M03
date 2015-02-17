@@ -26,7 +26,9 @@ public class Test {
         a.desplazar(b);
 
         System.out.println(a);
-
+/* a=setX(9);
+        a=setY(5);
+        */
     }
 
 }

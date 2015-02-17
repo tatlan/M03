@@ -53,4 +53,5 @@ public class Punto {
         this.x = this.x + p.getX();
         this.y = this.y + p.getY();
     }
+    public Punto copia 
 }
